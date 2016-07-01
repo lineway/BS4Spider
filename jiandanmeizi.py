@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 
 # 保存文件夹路径
-path = 'F:/image/'
+path = '/Users/zhangyiming/Downloads/Image/'
 urls = ['http://jandan.net/ooxx/page-{}#comments'.format(str(i)) for i in range(1985, 1500, -1)]
 # headers数据
 headers = {
